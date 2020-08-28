@@ -41,3 +41,4 @@ gateway.on(MessageCreateEvent.class).subscribe(event -> {
 
 gateway.onDisconnect().block();
 ```
+test

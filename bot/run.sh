@@ -1,2 +1,2 @@
 #!/bin/sh
-mvn exec:java
+mvn clean install exec:java

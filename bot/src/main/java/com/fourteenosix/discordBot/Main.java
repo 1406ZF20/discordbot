@@ -14,6 +14,7 @@ import java.time.Duration;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("init");
         while (true){
             String token = System.getenv("BOT_TOKEN");
             if (token == null){
@@ -25,7 +26,7 @@ public class Main {
             try {
                  dc = DiscordClient.create(token);
                gdc = dc.login().block();
-                System.out.println("Logged in as " + gdc.getSelf().block().getUsername());
+                System.out.println("Logged in as: " + gdc.getSelf().block().getUsername());
                 DiscordBot bot = new DiscordBot(dc, gdc);
                 gdc.onDisconnect().block();
             } catch (Exception e ){

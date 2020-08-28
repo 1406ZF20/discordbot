@@ -14,6 +14,7 @@ http.createServer((req, res) => {
         data += chunk;
     });
     req.on('end', () => {
+        console.log("Got Data")
         const signature = `sha1=${crypto
             .createHmac('sha1', opts.ghwebhooksecret)
             .update(data)
@@ -29,11 +30,11 @@ http.createServer((req, res) => {
         } catch (e) {
             console.log(e)
         }
+        res.end();
 
     })
-    res.write("dd");
 
-    res.end();
+
 })
     .listen(6809);
 

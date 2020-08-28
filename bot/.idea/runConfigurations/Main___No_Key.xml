@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main - No Key" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="com.fourteenosix.discordBot.Main" />
+    <option name="MAIN_CLASS_NAME" value="main.java.com.fourteenosix.Main" />
     <module name="bot" />
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Run" />

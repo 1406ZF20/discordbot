@@ -1,4 +1,4 @@
 #!/bin/sh
-echo "Updating"
+echo "Updating.."
 git pull
 echo "Finished Updating"

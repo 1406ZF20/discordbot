@@ -4,4 +4,4 @@ RUN apk add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/com
 WORKDIR /app
 COPY bot/ /app
 RUN mvn clean install
-CMD ./run.sh
+CMD mvn exec:java

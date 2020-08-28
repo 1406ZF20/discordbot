@@ -1,7 +1,9 @@
 # 1406 Discord Bot
-This is an intellij template project for a community discord bot, using discord4j-core, a java discord api wrapper.
+This is an intellij template project for a 1406 discord bot, using discord4j-core, a java discord api wrapper.
 
 
+### Things you may need to do to get this project working for you
+ TODO, but mostly step 9-18. You'll want to create another run configuration, so that way git doesn't commit your discord bot token
 ### Template Creation
 A template can be created by following these steps in intellij.
  1. File >> New >> Project
@@ -42,4 +44,4 @@ gateway.on(MessageCreateEvent.class).subscribe(event -> {
 gateway.onDisconnect().block();
 ```
 test
-test2
+tesr2

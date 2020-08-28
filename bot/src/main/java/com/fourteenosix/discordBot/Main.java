@@ -26,7 +26,7 @@ public class Main {
             try {
                  dc = DiscordClient.create(token);
                gdc = dc.login().block();
-                System.out.println("Logged in as: " + gdc.getSelf().block().getUsername());
+                System.out.println("Logged in as: " + gdc.getSelf().block().getAvatarUrl());
                 DiscordBot bot = new DiscordBot(dc, gdc);
                 gdc.onDisconnect().block();
             } catch (Exception e ){

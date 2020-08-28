@@ -24,7 +24,7 @@ public class DiscordBot {
         ).block();
         //t
         e.getMessage().getChannel().block().createMessage(
-           "Sup Person?"
+           "Sup Person? This took a lot of commits to get right"
         ).block();
         System.out.println("Got Message: " +  e.getMessage().getContent());
         System.out.println("\tBy Author: " + e.getMessage().getAuthor().get().getUsername());

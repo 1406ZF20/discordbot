@@ -1,5 +1,5 @@
 # 1406 Discord Bot
-This is an intellij template project for a community discord bot, using discord4j-core, a java discord api wrapper.
+This is an intellij template project for a 1406 discord bot, using discord4j-core, a java discord api wrapper.
 
 
 ### Template Creation

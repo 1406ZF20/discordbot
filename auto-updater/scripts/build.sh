@@ -1,8 +1,12 @@
 #!/bin/sh
+#Navigates to the folder the script is in
 cd "${0%/*}"
-echo "Building $BOT_TOKEN"
+echo "Building..."
 cd ..
-docker-compose kill
-docker-compose rm -f
-docker-compose build
+echo "Removing Old Version..."
+docker-compose down
+echo "Pruning System..."
+docker system prune -a
+echo "Starting New Version..."
 docker-compose up -d 
+echo "New Version Started."

@@ -17,7 +17,11 @@ public class DiscordBot {
         this.gatewayDiscordClient.on(MessageDeleteEvent.class).subscribe(e->this.onMessageDelete(e));
     }
     private void onMessageCreate(MessageCreateEvent e){
-        e.getMessage().getChannel().block().createMessage(e.getMessage().getAuthorAsMember().block().getDisplayName()).block();
+        if (e.getMessage().getUserData().id().equals(this.gatewayDiscordClient.getSelf().block().getId().asString()))
+            return;
+        e.getMessage().getChannel().block().createMessage(
+                e.getMessage().getAuthorAsMember().block().getDisplayName()
+        ).block();
         System.out.println("Got Message: " +  e.getMessage().getContent());
         System.out.println("\tBy Author: " + e.getMessage().getAuthor().get().getUsername());
     }

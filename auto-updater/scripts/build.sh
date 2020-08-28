@@ -2,7 +2,8 @@
 cd "${0%/*}"
 echo "Building $BOT_TOKEN"
 cd ..
-docker-compose kill
-docker-compose rm -f
-docker-compose build
-docker-compose up -d 
+echo "Removing Old Version..."
+docker-compose down
+echo "Starting New Version..."
+docker-compose up -d --no-deps --build
+echo "New Version Started."

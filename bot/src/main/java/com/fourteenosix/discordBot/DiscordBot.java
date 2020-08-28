@@ -23,7 +23,7 @@ public class DiscordBot {
                 e.getMessage().getAuthorAsMember().block().getAvatarUrl()
         ).block();
         e.getMessage().getChannel().block().createMessage(
-           "Hi there!"
+           "Hey there!"
         ).block();
         System.out.println("Got Message: " +  e.getMessage().getContent());
         System.out.println("\tBy Author: " + e.getMessage().getAuthor().get().getUsername());

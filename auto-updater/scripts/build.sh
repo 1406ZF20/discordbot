@@ -1,6 +1,7 @@
 #!/bin/sh
+#Navigates to the folder the script is in
 cd "${0%/*}"
-echo "Building $BOT_TOKEN"
+echo "Building..."
 cd ..
 echo "Removing Old Version..."
 docker-compose down

@@ -4,10 +4,8 @@ const exec = require('child_process').exec;
 const http = require('http')
 const crypto = require('crypto')
 const path = require("path");
-const { exception } = require("console");
 
-
-//The following server code is coppied from https://www.robinwieruch.de/github-webhook-node-js
+//The following server code is taken from https://www.robinwieruch.de/github-webhook-node-js
 http.createServer((req, res) => {
     let data = ""
     req.on('data', chunk => {
@@ -46,7 +44,8 @@ function initBuild() {
             cmdRes += stderr
         if (!cmdRes)
             return ""
-        return cmdRes.match(/(.|\n){0,1950}/)[0]
+        //For those that don't speak regex-ese, this takes the first 1900 chars
+        return cmdRes.match(/(.|\n){0,1900}/)[0]
     }
     let client = new discord.Client()
     client.login(opts.statusBot)

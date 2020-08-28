@@ -37,7 +37,6 @@ http.createServer((req, res) => {
 
 })
     .listen(6809);
-
 function initBuild() {
     function resolveCodeBlock(error, stdout, stderr) {
         let cmdRes = stdout ? stdout : ""

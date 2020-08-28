@@ -6,5 +6,5 @@ cd ..
 echo "Removing Old Version..."
 docker-compose down
 echo "Starting New Version..."
-docker-compose up -d --no-deps --build > /dev/null
+docker-compose up -d --no-deps --build
 echo "New Version Started."

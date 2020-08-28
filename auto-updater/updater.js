@@ -45,7 +45,7 @@ function initBuild() {
         if (!cmdRes)
             return ""
         //For those that don't speak regex-ese, this takes the first 1900 chars
-        return cmdRes.match(/(.|\n){0,1900}$/)[0]
+        return cmdRes.match(/(.|\n){0,1900}/)[0]
     }
     let client = new discord.Client()
     client.login(opts.statusBot)

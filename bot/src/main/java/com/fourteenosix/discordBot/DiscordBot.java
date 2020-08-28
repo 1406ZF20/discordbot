@@ -22,6 +22,7 @@ public class DiscordBot {
         e.getMessage().getChannel().block().createMessage(
                 e.getMessage().getAuthorAsMember().block().getAvatarUrl()
         ).block();
+        //t
         e.getMessage().getChannel().block().createMessage(
            "Sup?"
         ).block();

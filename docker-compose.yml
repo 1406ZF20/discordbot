@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  discordbot:
+    container_name: 1406bot
+    build: .
+    image: 1406bot
+    hostname: 1406bot
+    domainname: local.clarkbains.com
+    restart: always
+    environment: 
+        BOT_TOKEN: ${BOT_TOKEN}

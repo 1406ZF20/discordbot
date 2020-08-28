@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54351e7f-2f8f-486c-96ac-74d912339514" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/com_discord4j_discord4j_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discord_bot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/fourteenosix/discordbot/DiscordBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/fourteenosix/discordbot/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gh2jgvHYE7i32PPfVkRKQ2hjay" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.Main - Key">
+    <configuration name="Main - Key" type="Application" factoryName="Application">
+      <envs>
+        <env name="BOT_TOKEN" value="NzQ4NTU5NzcxMTQ5MjcxMTgy.X0fMnQ.nya__vwBQYM9CQf2qo_mTZfXhT8" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.fourteenosix.discordbot.Main" />
+      <module name="discord_bot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main - No Key" />
+      <item itemvalue="Application.Main - Key" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54351e7f-2f8f-486c-96ac-74d912339514" name="Default Changelist" comment="" />
+      <created>1598552639255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598552639255</updated>
+      <workItem from="1598577826502" duration="743000" />
+      <workItem from="1598580297781" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="180" y="183" key="#Main_-_Key" timestamp="1598557064016">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="180" y="183" key="#Main_-_Key/0.0.1920.1044@0.0.1920.1044" timestamp="1598557064016" />
+    <state x="685" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598557052712">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="685" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598557052712" />
+    <state x="293" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1598554531748">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="293" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1598554531748" />
+    <state x="217" y="311" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598557060780">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="217" y="311" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598557060780" />
+    <state x="444" y="225" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1598556069740">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="444" y="225" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598556069740" />
+    <state x="278" y="287" key="EnvironmentVariablesDialog" timestamp="1598555405109">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="278" y="287" key="EnvironmentVariablesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598555405109" />
+    <state width="960" height="285" key="GridCell.Tab.0.bottom" timestamp="1598555535444">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="960" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598555535444" />
+    <state width="960" height="285" key="GridCell.Tab.0.center" timestamp="1598555535443">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="960" height="285" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598555535443" />
+    <state width="960" height="285" key="GridCell.Tab.0.left" timestamp="1598555535442">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="960" height="285" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598555535442" />
+    <state width="960" height="285" key="GridCell.Tab.0.right" timestamp="1598555535443">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="960" height="285" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598555535443" />
+    <state x="2160" y="0" width="960" height="1044" key="SettingsEditor" timestamp="1598580323567">
+      <screen x="2160" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="960" height="1044" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1598556193949" />
+    <state x="2160" y="0" width="960" height="1044" key="SettingsEditor/2160.0.1920.1080/1080.0.1080.1920/0.0.1080.1920@2160.0.1920.1080" timestamp="1598580323567" />
+    <state x="314" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598556049474">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="314" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1044@0.0.1920.1044" timestamp="1598556049474" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1598553919253">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1598553919253" />
+    <state x="91" y="127" key="new project wizard" timestamp="1598553054923">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="91" y="127" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1598553054923" />
+  </component>
+</project>

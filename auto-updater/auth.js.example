@@ -1,0 +1,6 @@
+module.exports = {
+    statusBot: "NzQ4Nz...LJXU",
+    runBot: "NzQ4...0uI",
+    updateChannel: "69...07",
+    ghwebhooksecret: "asd...dfsd"
+}

@@ -1,0 +1,4 @@
+bot/out
+bot/target
+auto-updater/node_modules
+auto-updater/auth.js

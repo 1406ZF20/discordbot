@@ -5,7 +5,7 @@ const http = require('http')
 const crypto = require('crypto')
 const path = require("path");
 const { exception } = require("console");
-const client = new discord.Client()
+
 
 //The following server code is coppied from https://www.robinwieruch.de/github-webhook-node-js
 http.createServer((req, res) => {
@@ -49,6 +49,7 @@ function initBuild() {
             return ""
         return cmdRes.match(/(.|\n){0,1950}/)[0]
     }
+    let client = new discord.Client()
     client.login(opts.statusBot)
     client.on("ready", () => {
         console.log(`Logged in as ${client.user.tag}!`);

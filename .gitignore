@@ -3,4 +3,3 @@ bot/target
 bot/.idea/libraries/*
 auto-updater/node_modules
 auto-updater/auth.js
-bot/.idea/runConfigurations/Main.xml

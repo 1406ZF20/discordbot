@@ -6,7 +6,8 @@ This is an intellij template project for a 1406 discord bot, using discord4j-cor
  - All the work should be done inside of the `bot` folder. The other tools, maven, docker, docker compose, and the node and shell scripts are all to automatically build the project and deploy it. You should submit a feature request if something needs to change in these, and @clarkbains will address it. 
 
 ### Things you may need to do to get this project working for you
- - Follow steps 7-17 below to setup your development enviroment.
+ - Follow steps 7-20 below to setup your development enviroment.
+ - 
 
 ### Template Creation
 A template can be created by following these steps in intellij.
@@ -25,9 +26,11 @@ A template can be created by following these steps in intellij.
  13. Again, press Apply and OK.
  14. Find your discord bot token
  15. Open Run Configuration, under Run >> Edit Configurations.
- 16. In the Enviromental variables input, paste `BOT_TOKEN=mytokenhere`. Note that spacing and capitalization are important.
- 17. Press Apply and the OK
- 18. You are now set up. Past the following in the Main Class main method as a hello world, and click the green play at the top right to tun, or use shift+f10. You will need to have your bot in a server, and send `!ping` to get a response
+ 16. Add A new configuration, type Application, with the plus button in the upper left. 
+ 17. Give it a name, Select Main as the Main class, and be sure 'Store as project file' in the upper right is unchecked
+ 18. In the Enviromental variables input, paste `BOT_TOKEN=`mytokenhere. Note that spacing and capitalization are important.
+ 19. Press Apply and then OK
+ 20. You are now set up. Past the following in the Main Class main method as a hello world, and click the green play at the top right to tun, or use shift+f10. You will need to have your bot in a server, and send `!ping` to get a response
 
 ```java 
 String token = System.getenv("BOT_TOKEN");

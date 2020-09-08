@@ -1,4 +1,4 @@
-<!-- <component name="ProjectRunConfigurationManager"> -->
+<component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="com.fourteenosix.discordBot.Main" />
     <module name="bot" />

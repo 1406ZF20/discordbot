@@ -2,8 +2,15 @@
 This is an intellij template project for a 1406 discord bot, using discord4j-core, a java discord api wrapper.
 
 
+### Housekeeping
+ - All the work should be done inside of the `bot` folder. The other tools, maven, docker, docker compose, and the node and shell scripts are all to automatically build the project and deploy it. You should submit a feature request if something needs to change in these, and @clarkbains will address it. 
+
 ### Things you may need to do to get this project working for you
- TODO, but mostly step 9-18. You'll want to create another run configuration, so that way git doesn't commit your discord bot token
+ 1. Run >> Configurations
+ 2. Create a test Discord server, or join a community one, and obtain a bot token, and then add the bot to the server, or ask an admin to do it. 
+ 3. Paste `BOT_TOKEN=`tokenyoujustmade in the Enviromental variables section and hit OK
+ 4. Press the green play button to run, Shift F10 by default.
+
 ### Template Creation
 A template can be created by following these steps in intellij.
  1. File >> New >> Project
@@ -43,5 +50,3 @@ gateway.on(MessageCreateEvent.class).subscribe(event -> {
 
 gateway.onDisconnect().block();
 ```
-test
-tesr2

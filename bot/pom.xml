@@ -21,6 +21,7 @@
         </dependencies>
 
         <build>
+                <sourceDirectory>src</sourceDirectory>
                 <plugins>
                             <plugin>
                                 <groupId>org.codehaus.mojo</groupId>
@@ -32,6 +33,7 @@
                                                         <goal>java</goal>
                                                 </goals>
                                         </execution>
+                                        
                                 </executions>
                                 <configuration>
                                         <mainClass>com.fourteenosix.discordBot.Main</mainClass>

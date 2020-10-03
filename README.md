@@ -30,6 +30,12 @@ A template can be created by following these steps in intellij.
  17. Give it a name, Select Main as the Main class, and be sure 'Store as project file' in the upper right is unchecked
  18. In the Enviromental variables input, paste `BOT_TOKEN=`mytokenhere. Note that spacing and capitalization are important.
  19. Press Apply and then OK
+
+
+
+
+
+ ### Ignore
  20. You are now set up. Past the following in the Main Class main method as a hello world, and click the green play at the top right to tun, or use shift+f10. You will need to have your bot in a server, and send `!ping` to get a response
 
 ```java 
